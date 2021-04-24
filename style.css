@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Noto+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+body {
+    max-width: 1040px;
+    min-width: 600px;
+    padding: 1em;
+    margin: auto;
+}
+
+h1 {
+    background-color: rgb(8, 45, 88);
+    color: white;
+    padding: 1em;
+    font-family: "Libre Baskerville", serif;
+    font-size: 3em;
+}
+
+h2 {
+    font-family: "Noto Sans", sans-serif;
+    font-size: 1.6em;
+}
+
+img {
+    height: 230px;
+    float: right;
+}
+
+footer {
+    background-color: rgb(54, 94, 139);
+    color: white;
+    padding: 1em;
+}
+
+footer ul li {
+    list-style-type: none;
+}
