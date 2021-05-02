@@ -2,16 +2,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
 
 body {
-    max-width: 1040px;
-    min-width: 600px;
     padding: 1em;
     margin: auto;
 }
 
-h1 {
+header {
     background-color: rgb(8, 45, 88);
     color: white;
     padding: 1em;
+}
+
+h1 {
     font-family: "Libre Baskerville", serif;
     font-size: 3em;
 }
@@ -23,7 +24,6 @@ h2 {
 
 img {
     height: 230px;
-    float: right;
 }
 
 footer {
