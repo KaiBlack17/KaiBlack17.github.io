@@ -9,6 +9,11 @@
         flex-basis: auto;
     }
 
+    header, footer, nav, main {
+        max-width: 75rem;
+        margin: auto;
+    }
+
     main figure {
         width: 32%;
     }
