@@ -26,6 +26,14 @@ img {
     height: 230px;
 }
 
+ul li {
+    padding: .15rem;
+}
+
+a:hover {
+    color:#6495ed;
+}
+
 footer {
     background-color: rgb(54, 94, 139);
     color: white;
