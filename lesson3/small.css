@@ -15,15 +15,16 @@ body {
 /*----------- HEADER --------------*/
 header {
     padding: .5rem 2%;
-    background-color: #a4d9e0;
+    background-color: #c7c7c7;
 }
 header img {float: left; margin-right: 10px; width: 50px;}
 header h1 {margin: 0; font-size: 1.3rem;}
 header h2 {margin: 0; font-weight: normal; font-size: 1rem;}
+.logo {float: left; margin-right: 10px; width: 65px;}
 
 /*----------- NAVIGATION --------------*/
 nav {
-    background-color: #3a508b;
+    background-color: #585858;
 }
 nav ul {
     list-style-type: none;
@@ -42,11 +43,11 @@ nav ul li a {
 
 
 nav ul li a:hover {
-    background-color: #5470bd;
+    background-color: #757575;
     color: #ffffff;
 }
 nav ul li.active a {
-    background-color: #1f2f5a;
+    background-color: 585858;
     color: #fff;
 }
 /*----------- MAIN --------------*/
@@ -58,7 +59,7 @@ main {
 
 /*----------- FOOTER --------------*/
 footer {
-    background-color: #a4d9e0;
+    background-color: #cccccc;
     padding: .5rem 2%;
     text-align: center;
 }
