@@ -7,19 +7,19 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 
 /*cheater font import*/
 /*@import url('https://fonts.googleapis.com/css2?family=Baloo+2&display=swap');*/
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');*/
 
 /*----------- BODY --------------*/
 body {
     font-size: 16px;
-    font-family: verdana, sans-serif;
+    font-family: Verdana, sans-serif;
 }
 
 
 /*----------- HEADER --------------*/
 header {
     padding: .5rem 2%;
-    background-color: #c7c7c7;
+    background-color: #60B9F0;
 }
 header img {
     float: left;
@@ -28,14 +28,14 @@ header img {
 }
 header h1 {
     margin: 0;
-    font-size: 1.3rem;
-    font-family: "Baloo 2", Verdana, sans-serif;
+    font-size: 2rem;
+    font-family: "Grand Hotel", Verdana, sans-serif;
 }
 header h2 {
     margin: 0;
     font-weight: normal;
     font-size: 1rem;
-    font-family: "Source Sans Pro", sans-serif;
+    font-family: "IBM Plex Serif", sans-serif;
 }
 .logo {
     float: left;
@@ -45,7 +45,7 @@ header h2 {
 
 /*----------- NAVIGATION --------------*/
 nav {
-    background-color: #585858;
+    background-color: #1D3E70;
 }
 nav ul {
     list-style-type: none;
@@ -64,31 +64,74 @@ nav ul li a {
 
 
 nav ul li a:hover {
-    background-color: #757575;
+    background-color: #285496;
     color: #ffffff;
 }
 nav ul li.active a {
-    background-color: 585858;
+    background-color: #172c4b;
     color: #fff;
 }
 /*----------- MAIN --------------*/
+h1 {
+    font-family: "IBM Plex Serif", sans-serif;
+}
+
 main {
     padding: 0 2%;
     min-height: 10rem;
+    color: #001E3D;
 }
 
 main img {
     width: 450px;
     margin: auto;
 }
-
-.baloo {
-    font-family: "Baloo 2", Verdana, sans-serif;
+/*----------- FONTS --------------*/
+.logotext {
+    font-family: "Grand Hotel", Verdana, sans-serif;
+}
+.headtext {
+    font-family: "IBM Plex Serif", Verdana, sans-serif;
+}
+.ptext {
+    font-family: Verdana, sans-serif;
+}
+/*----------- COLORS --------------*/
+.color1 {
+    color: #ffffff;
+    background-color: #001E3D;
+    padding: 3rem;
+    width: 400px;
+}
+.color2 {
+    color: #ffffff;
+    background-color: #1D3E70;
+    padding: 3rem;
+    width: 400px;
+}
+.color3 {
+    color: #000000;
+    background-color: #60B9F0;
+    padding: 3rem;
+    width: 400px;
+}
+.color4 {
+    color: #000000;
+    background-color: #8AE5F5;
+    padding: 3rem;
+    width: 400px;
+}
+.color5 {
+    color: #000000;
+    background-color: #96A3BB;
+    padding: 3rem;
+    width: 400px;
 }
 
 /*----------- FOOTER --------------*/
 footer {
-    background-color: #cccccc;
+    color: #000000;
+    background-color: #8AE5F5;
     padding: .5rem 2%;
     text-align: center;
 }
