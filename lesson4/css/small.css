@@ -47,6 +47,7 @@ header h2 {
 nav {
     background-color: #1D3E70;
 }
+
 nav ul {
     list-style-type: none;
     padding: 0;
@@ -73,6 +74,10 @@ nav ul li.active a {
 }
 /*----------- MAIN --------------*/
 h1 {
+    font-family: "IBM Plex Serif", sans-serif;
+}
+
+h2 {
     font-family: "IBM Plex Serif", sans-serif;
 }
 
