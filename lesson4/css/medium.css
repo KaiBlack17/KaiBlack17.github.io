@@ -13,10 +13,21 @@
     
     
     /*----------- NAVIGATION --------------*/
+        nav button {
+            display: none;
+        }
         nav ul {margin-left: 2%;}
+
+        nav ul.hide {
+            display: block;
+        }
+
         nav ul li {float: left;}
     
-        nav ul li a{padding: .5rem 1rem;}
+        nav ul li a{
+            padding: .8rem 1rem;
+            border-top: none;
+        }
     
     
     /*----------- MAIN --------------*/

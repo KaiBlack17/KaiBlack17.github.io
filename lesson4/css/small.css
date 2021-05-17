@@ -48,6 +48,23 @@ nav {
     background-color: #1D3E70;
 }
 
+nav button {
+    margin: .2rem 2%;
+    background: transparent;
+    border: none;
+    font-size: 1.6rem;
+    color: #ffffff;
+}
+
+nav button:hover {
+    background-color: #285496;
+    color: #ffffff;
+}
+
+nav ul.hide {
+    display: none;
+}
+
 nav ul {
     list-style-type: none;
     padding: 0;
@@ -57,10 +74,11 @@ nav ul {
 nav ul li a {
     display: block;
     color: #eee;
-    padding: .5rem 0;
+    padding: .8rem 0;
     text-decoration: none;
     font-size: .9rem;
     text-align: center;
+    border-top: 1px solid;
 }
 
 
