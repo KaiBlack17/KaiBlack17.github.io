@@ -84,11 +84,10 @@ nav ul li a {
 
 nav ul li a:hover {
     background-color: #285496;
-    color: #ffffff;
+    color: #c1ccdf;
 }
 nav ul li.active a {
     background-color: #172c4b;
-    color: #fff;
 }
 /*----------- MAIN --------------*/
 h1 {
@@ -158,12 +157,22 @@ main img {
 
 /*----------- FOOTER --------------*/
 footer {
-    color: #000000;
+    color: #001E3D;
     background-color: #8AE5F5;
     padding: .5rem 2%;
     text-align: center;
 }
 
+footer a {
+    color: #001E3D;
+    text-decoration: none;
+}
+
+footer a:hover {
+    background-color: #285496;
+    color: #c1ccdf;
+    text-decoration: none;
+}
 
 
 /*----- Clearfix: Force an Element not to collapse -----*/

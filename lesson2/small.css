@@ -75,3 +75,14 @@ footer {
         grid-column: 1/2;
         padding: 1em;
     }
+
+    footer a {
+        color: #001E3D;
+        text-decoration: none;
+    }
+    
+    footer a:hover {
+        background-color: #285496;
+        color: #c1ccdf;
+        text-decoration: none;
+    }
