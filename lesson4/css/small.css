@@ -99,6 +99,11 @@ h2 {
     font-family: "IBM Plex Serif", sans-serif;
 }
 
+main p {
+    background-color:#96A3BB;
+    padding: 1.5rem;
+}
+
 main {
     padding: 0 2%;
     min-height: 10rem;
