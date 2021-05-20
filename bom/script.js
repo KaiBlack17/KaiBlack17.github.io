@@ -1,25 +1,17 @@
-const list = document.querySelector('ul');
-const input = document.querySelector('input');
-const button = document.querySelector('button');
+document.getElementById("mybtn").addEventListener("click", function()  {
+    let chapter = document.getElementById("chapter").value;
+    console.log(chapter);
+    if (chapter !== "") {
+        const xbtn = document.createElement("button");
+        xbtn.innerHTML ="\u274C";
 
-button.onClick = function addwords() {
-    let scripture = input.value;
-    input.value = '';
+        const listitem = document.createElement("li");
+        listitem.textContent =chapter;
+        listitem.appendChild(xbtn);
 
-    const listItem = document.createElement('li');
-    const listText = document.createElement('span');
-    const listBtn = document.createElement('button');
+        document.getElementById("favs").appendChild(listitem);
 
-    listItem.appendChild(listText);
-    listText.textContent = myItem;
-    listItem.appendChild(olistBtn);
-    listBtn.textContent = 'Delete';
-    list.appendChild(listItem);
+        document.getElementById("chapter").value = "";
+    } //end of if
 
-    listBtn.onclick = function(e) {
-        list.removeChild(listItem);
-    }
-
-    input.focus();
-
-}
+});
