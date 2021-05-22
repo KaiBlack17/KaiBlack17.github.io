@@ -2,19 +2,39 @@ function togglemenu() {
     document.getElementById("menuitems").classList.toggle("hide");
 }
 
-let daynames = {
-    "Sunday"
-    "Monday"
-    "Tuesday"
-    "Wednesday"
-    "Thursday"
-    "Friday"
-    "Saturday"
+
+let dat = new Date();
+let y = dat.getFullYear();
+let m = dat.getMonth();
+    let month = (m++);
+let d = dat.getDate();
+let td = dat.getDay();
+let day = 0;
+
+
+if (td = 0) {
+    day = "Sunday";
+}
+if (td = 1) {
+    day = "Monday";
+}
+if (td = 2) {
+    day = "Tuesday";
+}
+if (td = 3) {
+    day = "Wednesday";
+}
+if (td = 4) {
+    day = "Thursday";
+}
+if (td = 5) {
+    day = "Friday";
+}
+if (td = 6) {
+    day = "Saturday";
 }
 
-let d = new Date();
-let dayname = daynames[d.getDay()];
 
-let fulldate = dayname + ", " + d.getMonth() + " " + d.getDate() +", " + d.getFullYear();
+let output = day + " " + m + "/" + d + "/" + y;
 
-document.getElementById("today").innerHTML = fulldate;
+document.getElementById("today").textContent = output
