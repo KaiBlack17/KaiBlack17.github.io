@@ -145,6 +145,7 @@ p {
 .articleimg {
     width: 100%;
     float: right;
+    padding: .5rem;
 }
 
 main {
@@ -164,6 +165,7 @@ main img {
         display: grid;
         grid-template-columns: 50% 50%;
         grid-template-rows: 50% 50%;
+        padding: .5rem;
     }
 
     .address {
