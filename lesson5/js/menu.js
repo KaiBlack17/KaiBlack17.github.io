@@ -12,32 +12,33 @@ let td = dat.getDay();
 let day = 0;
 
 
-if (td = 0) {
+if (td == 0) {
     day = "Sunday";
-    document.getElementById("pancake").style.display = "none";
 }
-if (td = 1) {
+if (td == 1) {
     day = "Monday";
-    document.getElementById("pancake").style.display = "none";
 }
-if (td = 2) {
+if (td == 2) {
     day = "Tuesday";
-    document.getElementById("pancake").style.display = "none";
 }
-if (td = 3) {
+if (td == 3) {
     day = "Wednesday";
-    document.getElementById("pancake").style.display = "none";
 }
-if (td = 4) {
+if (td == 4) {
     day = "Thursday";
-    document.getElementById("pancake").style.display = "none";
 }
-if (td = 5) {
+if (td == 5) {
     day = "Friday";
+}
+if (td == 6) {
+    day = "Saturday";
+}
+
+
+if (td == 5) {
     document.getElementById("pancake").style.display = "block";
 }
-if (td = 6) {
-    day = "Saturday";
+else {
     document.getElementById("pancake").style.display = "none";
 }
 
