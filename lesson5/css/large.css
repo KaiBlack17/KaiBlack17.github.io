@@ -27,6 +27,9 @@ main img {
     margin: auto;
 }
 
+.articleimg {
+    width: 40%;
+}
 /*----------- FOOTER --------------*/
     
 } /* end of media query */
