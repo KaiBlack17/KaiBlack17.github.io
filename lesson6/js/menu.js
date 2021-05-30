@@ -49,10 +49,10 @@ document.getElementById("today").textContent = output
 
 
 
-WebFont.load({
-    google: {
-      families: [
-         'fontfamilynameofyourchoice'
-      ]
-    }
-  });
+//WebFont.load({
+    //google: {
+      //families: [
+         //'fontfamilynameofyourchoice'
+      //]
+    //}
+  //});
