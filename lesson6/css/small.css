@@ -126,6 +126,16 @@ p {
     background-color:rgba(255, 255, 255, 0.5);
     padding: .3rem;
 }
+
+.size {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: .3rem;
+    font-size: 24px;
+    color: white;
+}
+
 .weathersum p {
     margin: .3rem;
     font-size: 16px;
