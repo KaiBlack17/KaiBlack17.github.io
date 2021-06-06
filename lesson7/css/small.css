@@ -193,20 +193,22 @@ main img {
 
 /*----- Gallery -----*/
 
-.display section {
+.grid section {
     height: 270px;
+    width: 320px;
     padding: .5rem;
-    box-shadow: 1px 1px 7px #8b8b8b;
-    background-color:#a8c1d880;
+    box-shadow: 1px 1px 15px #8b8b8b;
 }
-.display section img{
+.grid section img{
     width: 300px; 
 }
-
-.display {
+.grid {
     display: grid;
-    grid-template-columns: 350px;
-    grid-template-rows: 300px 300px 300px 300px 300px 300px;
+    justify-content:center;
+    align-items: center;
+    grid-gap: 1.5rem;
+    grid-template-columns: 330px;
+    grid-template-rows: 280px 280px 280px 280px 280px 280px;
 }
 .pic1 {
     grid-column: 1/2;

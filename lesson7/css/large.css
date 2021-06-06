@@ -35,6 +35,11 @@ main img {
     width: 300px;
 }
 
+.grid section:hover {
+    box-shadow: 1px 1px 25px #707070;
+    text-shadow: 1px 1px 10px #707070;
+}
+
 .display {
     display: grid;
     grid-template-columns: 350px 350px 350px;
