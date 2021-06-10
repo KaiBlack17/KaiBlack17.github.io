@@ -55,7 +55,7 @@
             <li><a href="">Soda Springs</a></li>
             <li><a href="">Fish Haven</a></li>
             <li><a href="">Storm Center</a></li>
-            <li><a href="">Gallery</a></li>    
+            <li><a href="gallery.html">Gallery</a></li>    
         </ul>
     </nav>
     
@@ -67,51 +67,53 @@
 
         <div class="pgtop">
             <picture>
-                <source srcset="banner400.jpg" media="{min-width:500px;} and {max-width:799px;}">
-                <source srcset="banner600.jpg" media="{min-width:800px;}">
+                <source media="{min-width:500px;} and {max-width:799px;}" src="country400.jpg">
+                <source media="{min-width:800px;}" src="country600.jpg">
 
-                <img class="banner" src="banner250.jpg" alt="Countryside">
+                <img class="banner" src="country250.jpg" alt="Countryside">
             </picture>
+
             <section class="weathersum">
                 <p>Weather Summary</p>
                 <p>High: xx</p>
                 <p>Low: xx</p>
                 <p>Wind: xx</p>
             </section>
-            <p class="size"></p>
+            <!-- <p class="size">Test</p> -->
         </div>
-
-        <p>Current Temperature is <span id="temp">40</span>&deg;</p>
-        <p>Current Wind Speed is <span id="speed">60</span>mph</p>
-        <span id="chill"></span>
 
         <h2 class="forecastheader">Five Day Forecast</h2>
             <section class="forecast">
 
                 <div class="day1">
                     <h3>Day</h3>
-                    <span>High Temp</span>
-                    <span>Wind Chill</span>
+                    <p>High Temperature:<span id="temp1">46</span></p>
+                    <p>Wind Speed:<span id="speed1">23</span></p>
+                    <p>Wind Chill:<span id="chill1"></span></p>
                 </div>
                 <div class="day2">
                     <h3>Day</h3>
-                    <span>High Temp</span>
-                    <span>Wind Chill</span>
+                    <p>High Temperature:<span id="temp2">51</span></p>
+                    <p>Wind Speed:<span id="speed2">19</span></p>
+                    <p>Wind Chill:<span id="chill2"></span></p>
                 </div>
                 <div class="day3">
                     <h3>Day</h3>
-                    <span>High Temp</span>
-                    <span>Wind Chill</span>
+                    <p>High Temperature:<span id="temp3">47</span></p>
+                    <p>Wind Speed:<span id="speed3">25</span></p>
+                    <p>Wind Chill:<span id="chill3"></span></p>
                 </div>
                 <div class="day4">
                     <h3>Day</h3>
-                    <span>High Temp</span>
-                    <span>Wind Chill</span>
+                    <p>High Temperature:<span id="temp4">45</span></p>
+                    <p>Wind Speed:<span id="speed4">35</span></p>
+                    <p>Wind Chill:<span id="chill4"></span></p>
                 </div>
                 <div class="day5">
                     <h3>Day</h3>
-                    <span>High Temp</span>
-                    <span>Wind Chill</span>
+                    <p>High Temperature:<span id="temp5">42</span></p>
+                    <p>Wind Speed:<span id="speed5">30</span></p>
+                    <p>Wind Chill:<span id="chill5"></span></p>
                 </div>
                 
             </section>

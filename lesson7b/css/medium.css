@@ -37,6 +37,41 @@
         margin: auto;
     }
     
+    .display section img{
+        width: 250px;
+    }
+
+    .display {
+        display: grid;
+        grid-template-columns: 300px 300px;
+        grid-template-rows: 200px 200px 200px;
+    }
+    .pic1 {
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+    .pic2 {
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+    .pic3 {
+        grid-column: 1/2;
+        grid-row: 3/4;
+    }
+    .pic4 {
+        grid-column: 2/3;
+        grid-row: 1/2;
+    }
+    .pic5 {
+        grid-column: 2/3;
+        grid-row: 2/3;
+    }
+    .pic6 {
+        grid-column: 2/3;
+        grid-row: 3/4;
+    }
+    
+    
     /*-----Forecast-----*/
     .forecastheader {
         display: block;
