@@ -69,6 +69,11 @@ main img {
     grid-column: 3/4;
     grid-row: 2/3;
 }
+
+
+form label.sbs {
+    padding:.4rem 0;
+}
 /*----------- FOOTER --------------*/
     
 } /* end of media query */

@@ -51,10 +51,10 @@
         <button onclick="togglemenu()">&#9776;</button>
         <ul id="menuitems" class="open">
             <li><a href="">Home</a></li>
-            <li class="active"><a href="preston.html">Preston</a></li>
+            <li><a href="preston.html">Preston</a></li>
             <li><a href="">Soda Springs</a></li>
             <li><a href="">Fish Haven</a></li>
-            <li><a href="">Storm Center</a></li>
+            <li class="active"><a href="stormcenter.html">Storm Center</a></li>
             <li><a href="gallery.html">Gallery</a></li>    
         </ul>
     </nav>
@@ -65,7 +65,52 @@
           
         <h1>Make a Report</h1>
 
-        <input>
+        <form method="get" action="thanks.html">
+            <fieldset>
+                <legend>Your Information</legend>
+                <label class="line">First Name* <input type="text" name="fname" required></label>
+                <label class="line">Last Name* <input type="text" name="lname" required></label>
+                <label class="line">Phone* <input type="tel" name="phone" placeholder="1235551234" required></label>
+                <label class="line">ZIP Code* <input type="zip" name="zip" required></label>
+            </fieldset>
+            <fieldset>
+                <legend>Storm Data</legend>
+                <label class="line">Storm Type
+                    <select name="subject">
+                    <option>Please Select &#9662;</option> 
+                    <option value="flood">Flash Flood</option>
+                    <option value="hail">Hail</option>
+                    <option value="hurricane">Hurricane</option>
+                    <option value="thunder">Thunderstorm</option>
+                    <option value="tornado">Tornado</option>
+                    </select>
+                </label>
+
+                <label  class="line">Severity Rating &nbsp;&nbsp;&nbsp;
+                    <input type="range" name="rating" value="5" min="1" max="10" step="1" list="tickmarks">
+                </label>
+
+                <label  class="line">Storm Region
+                    <select name="subject">
+                    <option>Select Region &#9662;</option> 
+                    <option value="preston">Preston</option>
+                    <option value="sodasprings">Soda Springs</option>
+                    <option value="fishhaven">Fish Haven</option>
+                    </select>
+                </label>
+
+                <div>Are you in danger?</div>
+                <label><input type="radio" name="audience" value="yes"> Yes</label>
+                <label><input type="radio" name="audience" value="maybe"> Maybe</label>
+                <label><input type="radio" name="audience" value="no"> No</label>
+    
+                <label><div>Additional Comments/Information</div>
+                <input type="textarea" name="comments"></label>
+            </fieldset>
+    
+            <input class="submitBtn" type="submit" value="Report Storm">
+    
+            </form>
 
         
 
