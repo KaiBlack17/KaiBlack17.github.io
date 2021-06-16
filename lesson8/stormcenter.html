@@ -76,18 +76,19 @@
             <fieldset>
                 <legend>Storm Data</legend>
                 <label class="line">Storm Type
-                    <select name="subject">
-                    <option>Please Select &#9662;</option> 
-                    <option value="flood">Flash Flood</option>
-                    <option value="hail">Hail</option>
-                    <option value="hurricane">Hurricane</option>
-                    <option value="thunder">Thunderstorm</option>
-                    <option value="tornado">Tornado</option>
-                    </select>
+                    <input list="storm" type="datalist" name="storm">
+                    <datalist id="storm">
+                        <option value="flood">flash flood</option>
+                        <option value="hail">hail</option>
+                        <option value="hurricane">hurricane</option>
+                        <option value="thunder">thunderstorm</option>
+                        <option value="tornado">tornado</option>
+                        </datalist>
                 </label>
 
-                <label  class="line">Severity Rating &nbsp;&nbsp;&nbsp;
-                    <input type="range" name="rating" value="5" min="1" max="10" step="1" list="tickmarks">
+                <label>Severity Rating &nbsp;&nbsp;&nbsp;
+                    <input type="range" name="rating" value="5" min="1" max="10" step="1" list="tickmarks" id="myRange">
+                    <div id="ratenum"></div>
                 </label>
 
                 <label  class="line">Storm Region
@@ -125,6 +126,7 @@
     <!-- Javascript-->
 <script src="js/menu.js"></script>
 <script src="js/windchill.js"></script>
+<script src="js/slider.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
 
 </body>
