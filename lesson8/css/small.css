@@ -247,7 +247,12 @@ form legend {
     margin: 0 1rem;
     padding: 0 .5rem;
 }
-
+form label.flexly{
+    display: block;
+    padding-top: 1rem;
+    color: #ac3636;
+    font-size: .8rem;
+}
 form label.line, form div {
     display: block;
     padding-top: 1rem;
@@ -289,6 +294,10 @@ form label.line input:required {
 }
 form label.line input:required:valid {
     border-left: green solid 6px;
+}
+#ratenum {
+    color: #1D3E70;
+    font-size: 1rem;
 }
 
 
