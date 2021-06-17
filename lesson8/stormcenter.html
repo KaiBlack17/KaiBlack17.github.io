@@ -71,12 +71,12 @@
                 <label class="line">First Name* <input type="text" name="fname" required></label>
                 <label class="line">Last Name* <input type="text" name="lname" required></label>
                 <label class="line">Phone* <input type="tel" name="phone" placeholder="1235551234" required></label>
-                <label class="line">ZIP Code* <input type="zip" name="zip" required></label>
+                <label class="line">ZIP Code* <input type="text" name="zip" required></label>
             </fieldset>
             <fieldset>
                 <legend>Storm Data</legend>
                 <label class="line">Storm Type
-                    <input list="storm" type="datalist" name="storm">
+                    <input list="storm" type="text" name="storm">
                     <datalist id="storm">
                         <option value="flood">flash flood</option>
                         <option value="hail">hail</option>
@@ -119,15 +119,13 @@
                 <label><input type="radio" name="audience" value="maybe"> Maybe</label>
                 <label><input type="radio" name="audience" value="no"> No</label>
     
-                <label><div>Additional Comments/Information</div>
-                <input type="textarea" name="comments"></label>
+                <div>Additional Comments/Information</div>
+                <label><input type="text" name="comments"></label>
             </fieldset>
     
             <input class="submitBtn" type="submit" value="Report Storm">
     
             </form>
-
-        
 
 
     </main>
