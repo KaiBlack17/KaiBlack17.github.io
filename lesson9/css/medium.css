@@ -114,6 +114,17 @@
     .articleimg {
         width: 50%;
     }
+
+    /*WIREFRAMES*/
+.wfl {
+    width: 35%;
+}
+.wfm {
+    width: 31%;
+}
+.wfs {
+    width: 10%
+}
     /*----------- FOOTER --------------*/
         
     } /* end of media query */

@@ -301,6 +301,17 @@ form label.line input:required:valid {
 }
 
 
+/*WIREFRAMES*/
+.wfl {
+    width: 80%;
+}
+.wfm {
+    width: 70%;
+}
+.wfs {
+    width: 40%
+}
+
 /*----------- FONTS --------------*/
 .logotext {
     font-family: "Grand Hotel", Verdana, sans-serif;
