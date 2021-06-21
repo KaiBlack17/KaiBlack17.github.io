@@ -108,6 +108,10 @@ h3 {
     font-size: 16px;
 }
 
+h4 {
+    font-size: 14px;
+}
+
 p {
     font-size: 14px;
 }
@@ -300,7 +304,6 @@ form label.line input:required:valid {
     font-size: 1rem;
 }
 
-
 /*WIREFRAMES*/
 .wfl {
     width: 80%;
@@ -310,6 +313,22 @@ form label.line input:required:valid {
 }
 .wfs {
     width: 40%
+}
+
+/*HOMEPAGE*/
+.towns{
+    display:grid;
+    grid-template-columns: 80%;
+    
+}
+.towns section {
+    background-color:#98c1da;
+    margin: .7rem;
+    column-gap: .5rem;
+    padding: .5rem;
+}
+.towns h2 {
+    text-shadow: 2px 2px 5px #5b788a;
 }
 
 /*----------- FONTS --------------*/

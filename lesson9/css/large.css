@@ -75,6 +75,12 @@ form label.sbs {
     padding:.4rem 0;
 }
 
+
+.towns{
+    display:grid;
+    grid-template-columns: 30% 30% 30%;
+}
+
 /*----------- FOOTER --------------*/
     
 } /* end of media query */
