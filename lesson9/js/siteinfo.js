@@ -26,7 +26,8 @@ fetch(requestURL)
       p1.textContent = 'Year Founded: ' + towns[i].yearFounded;
       p2.textContent = 'Population: ' + towns[i].currentPopulation;
       p3.textContent = 'Annual Rainfall: ' + towns[i].averageRainfall;
-      img.setAttribute('src', towns[i].imageurl);
+      img.setAttribute('src', towns[i].photo);
+      img.setAttribute('alt', towns[i].name);
 
       card.appendChild(h2);
       card.append(h4);
@@ -40,6 +41,3 @@ fetch(requestURL)
     }
 
   });
-
-
-image.setAttribute('src', prophets[i].imageurl);
