@@ -1,5 +1,5 @@
 //ADD the key and change units to imperial
-const apiURL = "http://api.openweathermap.org/data/2.5/weather?zip=02111,us&appid=f7dae4438c31f3b6c7876be35f7a832c&units=imperial"
+const apiURL = "http://api.openweathermap.org/data/2.5/weather?zip=84065,us&appid=f7dae4438c31f3b6c7876be35f7a832c&units=imperial"
 
 //Go fetch it and then wait for a response.
 fetch(apiURL)
