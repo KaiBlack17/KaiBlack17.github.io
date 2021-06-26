@@ -316,7 +316,7 @@ form label.line input:required:valid {
 }
 
 /*HOMEPAGE*/
-.towns{
+.towns {
     display:grid;
     grid-template-columns: 80%;
     
@@ -327,8 +327,11 @@ form label.line input:required:valid {
     column-gap: .5rem;
     padding: .5rem;
 }
-.towns h2 {
+.towns section h2 {
     text-shadow: 2px 2px 5px #5b788a;
+}
+.towns section img {
+    width: 100%
 }
 
 /*----------- FONTS --------------*/

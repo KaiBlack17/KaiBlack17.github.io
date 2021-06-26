@@ -75,10 +75,13 @@ form label.sbs {
     padding:.4rem 0;
 }
 
-
-.towns{
+/*HOMEPAGE*/
+.towns {
     display:grid;
     grid-template-columns: 30% 30% 30%;
+}
+.towns div {
+    display: block;
 }
 
 /*----------- FOOTER --------------*/
