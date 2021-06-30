@@ -318,7 +318,7 @@ form label.line input:required:valid {
 /*HOMEPAGE*/
 .towns {
     display:grid;
-    grid-template-columns: 80%;
+    grid-template-columns: 100%;
     
 }
 .towns section {

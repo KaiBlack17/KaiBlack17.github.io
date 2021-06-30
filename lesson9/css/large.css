@@ -78,7 +78,7 @@ form label.sbs {
 /*HOMEPAGE*/
 .towns {
     display:grid;
-    grid-template-columns: 30% 30% 30%;
+    grid-template-columns: 33.3% 33.3% 33.3%;
 }
 .towns div {
     display: block;
