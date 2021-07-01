@@ -46,7 +46,7 @@
         grid-template-columns: 300px 300px;
         grid-template-rows: 200px 200px 200px;
     }
-    .pic1 {
+    /*.pic1 {
         grid-column: 1/2;
         grid-row: 1/2;
     }
@@ -69,7 +69,7 @@
     .pic6 {
         grid-column: 2/3;
         grid-row: 3/4;
-    }
+    }*/
     
     /*HOMEPAGE*/
     /*.towns {
@@ -93,26 +93,29 @@
     .towns:nth-child(2) div {grid-column: 2/3;}
 
     /*-----Forecast-----*/
-    .forecastheader {
+    #forecastheader {
         display: block;
     }
 
-    .forecast {
+    #forecast {
         display: grid;
         grid-template-columns: 20% 20% 20% 20% 20%;
         text-align: center;
     }
 
-    .forecast div {
+    #forecast div {
         background-color:#c1c7d3;
         padding: .5rem;
         border: solid;
         border-width: 1px;
     }
 
-    .forecast div h3 {
-        background-color:#96A3BB;
+    #forecast div span {
+        font-weight: bolder;
         padding: .3rem;
+    }
+    #forecast img {
+        width: 50px;
     }
 
     .day1 {
