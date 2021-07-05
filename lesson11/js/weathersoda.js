@@ -11,7 +11,7 @@ weekday[5] = "Friday";
 weekday[6] = "Saturday";
 
 
-const apiURL = "//api.openweathermap.org/data/2.5/forecast?q=SodaSprings,ID,US&appid=f7dae4438c31f3b6c7876be35f7a832c&units=imperial"
+const apiURL = "//api.openweathermap.org/data/2.5/forecast?zip=83276&appid=f7dae4438c31f3b6c7876be35f7a832c&units=imperial"
 
 fetch(apiURL)
   .then((response) => response.json())
