@@ -115,9 +115,10 @@
         padding: .3rem;
     }
     #forecast img {
-        width: 50px;
+        width: 70px;
     }
 
+    
     .day1 {
         grid-column: 1/2;
     }
