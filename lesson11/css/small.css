@@ -335,6 +335,21 @@ form label.line input:required:valid {
     width: 100%
 }
 
+/*REAL FORECAST*/
+#forecast div {
+    background-color:#c1c7d3;
+    padding: .5rem;
+    border: solid;
+    border-width: 1px;
+}
+#forecast div span {
+    font-weight: bolder;
+    padding: .3rem;
+}
+#forecast img {
+    width: 70px;
+}
+
 /*----------- FONTS --------------*/
 .logotext {
     font-family: "Grand Hotel", Verdana, sans-serif;
