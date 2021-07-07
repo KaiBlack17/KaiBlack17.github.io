@@ -123,12 +123,16 @@ p {
 .banner {
     width: 100%;
 }
-.weathersum {
+#weathersum {
     position: absolute;
     top: 10px;
     left: 10px;
-    background-color:rgba(255, 255, 255, 0.5);
+    background-color:rgba(255, 255, 255, 0.7);
     padding: .3rem;
+}
+#weathersum p {
+    margin: .3rem;
+    font-size: 16px;
 }
 
 .size {
@@ -140,10 +144,6 @@ p {
     color: white;
 }
 
-.weathersum p {
-    margin: .3rem;
-    font-size: 16px;
-}
 
     /*-----Forecast-----*/
     /*.forecastheader {
@@ -341,13 +341,14 @@ form label.line input:required:valid {
     padding: .5rem;
     border: solid;
     border-width: 1px;
+    text-align: center;
+    font-size: 1.3rem;
 }
 #forecast div span {
     font-weight: bolder;
-    padding: .3rem;
 }
 #forecast img {
-    width: 70px;
+    width: 100px;
 }
 
 /*----------- FONTS --------------*/
