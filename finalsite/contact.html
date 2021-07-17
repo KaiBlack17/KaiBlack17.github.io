@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+<meta charset="utf-8">
+<meta name="description" content="Home">
+<meta name="author" content="Kailey Black">
+
+    <title>Contact Us</title>
+
+<!-- TELLS PHONES NOT TO LIE ABOUT THEIR WIDTH & stops the font from enlarging when a phone is turned sideways-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<!-- !!!!!!!!!!!Favicon -->
+    <link href="favicon.ico" rel="icon">
+
+<!-- STYLE SHEETS -->
+    <link href="css/normalize.css" rel="stylesheet">
+    <!-- phone-default -->
+    <link href="css/small.css" rel="stylesheet">
+    <!-- enhance-tablet -->
+    <link href="css/medium.css" rel="stylesheet">
+    <!-- enhance-desktop -->
+    <link href="css/large.css" rel="stylesheet">
+
+<!-- !!!!!!!!!!!Fonts -->
+
+
+</head>
+
+<body>
+
+<!-- !!!!!!!!!!!HEADER HERE, add logo and site name -->
+	<header class="clearfix">
+	<img class="logo" src="" alt ="logo">
+ <h1>Title</h1>
+        <h2>Subtitle</h2>
+    </header>
+    
+    
+<!-- !!!!!!!!!!!NAVIGATION HERE, fix javascript for togglemenu and css for class=active -->
+    <nav class="clearfix">
+        <button onclick="togglemenu()">&#9776;</button>
+        <ul id="menuitems" class="open">
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="city.html">ABOUT RIVERTON</a></li>
+            <li><a href="join.html">JOIN US</a></li>
+            <li><a href="directory.html">DIRECTORY</a></li>
+            <li class="active"><a href="contact.html">CONTACT US</a></li>    
+        </ul>
+    </nav>
+    
+    
+<!-- CONTENT HERE -->
+    <main>
+          
+        <h1>Contact Us</h1>
+
+        <div class="pgtop">
+            <picture>
+                <source media="(max-width: 300px)" srcset="images/pres300.jpg">
+                <source media="(max-width: 800px)" srcset="images/pres800.jpg">
+
+                <img class="banner" src="images/pres1300.jpg" alt="Riverton City">
+            </picture>
+        </div>
+
+<!--!!!!!!!!!!!FORECAST-->
+        <div id="weatherforecast"></div>
+        <h2 class="forecastheader">Riverton Five Day Forecast</h2>
+            <div id="forecast"></div>
+            
+
+        <h2>Upcoming Events</h2>
+
+
+        <h2>Contact Us</h2>
+        <section class="contact">
+            <div class="address">
+                <h3>Address:</h3>
+                <p>The Weather Center</p>
+                <p>123 Main Street.</p>
+                <p>Franklin, MI 87654</p>
+            </div>
+            <div class="phone">
+                <h3>Phone:</h3>
+                <p>(801) 555-1234</p>
+            </div>
+            <div class="email">
+                <h3>Email:</h3>
+                <p>contact@ yoururl.com</p>
+            </div>
+        </section>
+    </main>
+    
+<!-- FOOTER HERE -->   
+    <footer>
+        &copy; 2021 &bull; <a href="https://kaiblack17.github.io/">Kailey Black</a>
+    </footer>
+
+    <!-- Javascript-->
+<script src="js/weather.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+
+</body>
+</html>
