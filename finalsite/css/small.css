@@ -152,7 +152,22 @@ section.contact div p {
     font-size: 11pt;
 }
 
-/*----- Gallery -----*/
+/*----- Directory -----*/
+.cards section {
+    width: 450px;
+    height: 200px;
+    background-color: #eee8df;
+    padding: .7rem;
+    margin: .7rem;
+}
+.cards section img {
+    max-width: 100px;
+    float: left;
+}
+
+
+
+
 
 .grid section {
     height: 270px;

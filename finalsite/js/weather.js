@@ -3,32 +3,39 @@ function togglemenu() {
     document.getElementById("menuitems").classList.toggle("hide");
 }
 
-//generate buisness cards for directory UNDER CONSTRUCTION
-fetch("js/directory.JSON")
+//Generate buisness cards for directory
+const requesturl = 'https://kaiblack17.github.io/finalsite/js/directory.JSON'
+fetch(requesturl)
   .then(function (response) {
     return response.json();
   })
   .then(function (jsonObject) {
     //console.table(jsonObject); FOR TESTING
-    const prophets = jsonObject['prophets'];
+    const directory = jsonObject['directory'];
 
-    for (let i = 0; i < prophets.length; i++ ) {
+    for (let i = 0; i < directory.length; i++ ) {
       let card = document.createElement('section');
       let h2 = document.createElement('h2');
       let p1 = document.createElement('p');
       let p2 = document.createElement('p');
+      let p3 = document.createElement('p');
+      let p4 = document.createElement('p');
       let img = document.createElement('img');
 
 
-      h2.textContent = prophets[i].name + ' ' + prophets[i].lastname;
-      p1.textContent = 'Date of Birth: ' + prophets[i].birthdate;
-      p2.textContent = 'Place of Birth: ' + prophets[i].birthplace;
-      img.setAttribute('src', prophets[i].imageurl);
-
+      img.setAttribute('src', directory[i].imageurl);
+      h2.textContent = directory[i].name;
+      p1.textContent = 'Website: ' + directory[i].siteurl;
+      p2.textContent = 'Address: ' + directory[i].address;
+      p3.textContent = 'Phone: ' + directory[i].phone;
+      p4.textContent = 'Email: ' + directory[i].email;
+      
+      card.appendChild(img);
       card.appendChild(h2);
-      card.append(p1);
-      card.append(p2);
-      card.append(img);
+      card.appendChild(p1);
+      card.appendChild(p2);
+      card.appendChild(p3);
+      card.appendChild(p4);
 
       document.querySelector('div.cards').appendChild(card);
     }
