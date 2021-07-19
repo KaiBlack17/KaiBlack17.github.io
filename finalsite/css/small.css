@@ -138,7 +138,19 @@ main {
 }
 
 /*-----Contact-----*/
-
+section.contact {
+    background-color: #eee8df;
+    padding: .7rem;
+    margin: .5rem;
+    max-width: 300px;
+    border-radius: 15px
+}
+section.contact div {
+    padding: .1rem;
+}
+section.contact div p {
+    font-size: 11pt;
+}
 
 /*----- Gallery -----*/
 

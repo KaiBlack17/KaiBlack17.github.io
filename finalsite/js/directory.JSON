@@ -1,0 +1,60 @@
+{
+    "directory": [
+      {
+        "name": "Arbor Day Nursery",
+        "phone": "801-558-8985",
+        "email": "jesse@arbordaynursery.net",
+        "address": "2767 W 12600 S Riverton, UT 84065",
+        "siteurl": "https://arbordaynursery.net/",
+        "imageurl": "https://arbordaynursery.net/wp-content/uploads/sites/129/2019/02/arbor-day-nursery-logo-new-glow-300x292.png"
+      },
+      {
+        "name": "Batch Baked Goods",
+        "phone": "",
+        "email": "",
+        "address": "3693 W 13400 S, Suite E, Riverton, UT 84065",
+        "siteurl": "https://batchbakedgoods.com/",
+        "imageurl": "https://cdn.shopify.com/s/files/1/0373/1560/8708/files/Untitled_design_23_x60.png?v=1608667152"
+      },
+      {
+        "name": "Berrett's Blossoms",
+        "phone": "801-254-3643",
+        "email": "",
+        "address": "2762 W 12600 S, Suite 4, Riverton, UT 84065",
+        "siteurl": "https://www.berrettsblossoms.com/",
+        "imageurl": "https://assets.eflorist.com/site/EF-16801/Logo/m5970150-logo7.png"
+      },
+      {
+        "name": "Broomhead Funeral Home",
+        "phone": "801-254-3389",
+        "email": "broomheadfuneralhome2200@gmail.com",
+        "address": "2200 W 12600 S Riverton, UT 84065",
+        "siteurl": "https://www.broomheadfuneralhome.com/",
+        "imageurl": "https://www.broomheadfuneralhome.com/fh_live/13900/13952/images/premium/logo_w_standard_white.png"
+      },
+      {
+        "name": "Ear, Nose, and Throat Center of Utah",
+        "phone": "801-758-0428",
+        "email": "",
+        "address": "4063 W 12600 S Riverton, UT 84096",
+        "siteurl": "https://entcenterutah.com/",
+        "imageurl": "https://entcenterutah.com/wp-content/uploads/2021/01/entcenterutah_logo.png"
+      },
+      {
+        "name": "G.O.A.T Haircuts",
+        "phone": "385-695-5874",
+        "email": "",
+        "address": "4608 W Partridge Hill Lane, Suite B105, Riverton, UT 84096",
+        "siteurl": "https://goathaircuts.com/",
+        "imageurl": "https://img1.wsimg.com/isteam/ip/a07d5d6b-a434-4305-9875-5868b1c5a55e/logo/543b4266-1978-4596-ba02-804a4751e2fe.jpg/:/rs=w:80,h:80,cg:true,m/cr=w:80,h:80/qt=q:95"
+      },
+      {
+        "name": "House 2 Home",
+        "phone": "801-619-1488",
+        "email": "",
+        "address": "1604 W 12600 S Riverton, UT 84065",
+        "siteurl": "https://house2home-homegoodsstore.business.site/",
+        "imageurl": ""
+      }
+    ]
+  }
