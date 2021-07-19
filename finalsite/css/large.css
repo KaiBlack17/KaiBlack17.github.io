@@ -26,7 +26,22 @@ form label.sbs {
     padding:.4rem 0;
 }
 
-/*HOMEPAGE*/
+.contacttop {
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+
+
+.boardofd {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+.director {
+    max-width: 300px;
+}
+.pfp {
+    max-width: 230px;
+}
 
 /*----------- FOOTER --------------*/
     

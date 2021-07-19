@@ -5,21 +5,17 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
 
-/*cheater font import*/
-/*@import url('https://fonts.googleapis.com/css2?family=Baloo+2&display=swap');*/
-/*@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');*/
-
 /*----------- BODY --------------*/
 body {
     font-size: 16px;
-    font-family: sans-serif;
+    font-family: 'Lato', sans-serif;
 }
 
 
 /*----------- HEADER --------------*/
 header {
     padding: .5rem 2%;
-    background-color: #dddddd;
+    background-color: #85b3d3;
 }
 header img {
     float: left;
@@ -28,24 +24,26 @@ header img {
 }
 header h1 {
     margin: 0;
-    font-size: 2rem;
-    font-family: sans-serif;
+    font-size: 1rem;
+    font-family: 'Raleway', sans-serif;
 }
 header h2 {
     margin: 0;
     font-weight: normal;
     font-size: 1rem;
-    font-family: sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
 .logo {
     float: left;
     margin-right: 10px;
-    width: 65px;
+    width: 80px;
 }
 
 /*----------- NAVIGATION --------------*/
 nav {
-    background-color: #5c5c5c;
+    background-color: #e4b363;
+    font-family: 'Raleway', sans-serif;
+    color: #181c37;
 }
 
 nav button {
@@ -57,7 +55,7 @@ nav button {
 }
 
 nav button:hover {
-    background-color: #919191;
+    background-color: #a38e6b;
     color: #ffffff;
 }
 
@@ -73,7 +71,7 @@ nav ul {
 
 nav ul li a {
     display: block;
-    color: #eee;
+    color: #181c37;
     padding: .8rem 0;
     text-decoration: none;
     font-size: .9rem;
@@ -83,37 +81,60 @@ nav ul li a {
 
 
 nav ul li a:hover {
-    background-color: #919191;
-    color: #c1ccdf;
+    background-color: #a38e6b;
+    color: #ffffff;
 }
 nav ul li.active a {
-    background-color: #474747;
+    background-color: #6d5c49;
+    color: #fff;
 }
 /*----------- MAIN --------------*/
 h1 {
-    font-family: sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
 
 h2 {
-    font-family: sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
 
 h3 {
     font-size: 16px;
+    font-family: 'Raleway', sans-serif;
 }
 
 h4 {
     font-size: 14px;
+    font-family: 'Raleway', sans-serif;
 }
 
 p {
-    font-size: 14px;
+    font-size: 16px;
 }
 
 main {
     padding: 0 2%;
     min-height: 10rem;
     color: #303030;
+}
+
+.pgtop {
+    position: relative;
+}
+.banner {
+    width: 100%;
+}
+
+/*-----Homepage-----*/
+.featured div {
+    background-color: #eee8df;
+    padding: .7rem;
+    margin: 1rem;
+    border-radius: 15px
+}
+.company {
+    width: 150px;
+    float: left;
+    padding: .5rem;
 }
 
 /*-----Contact-----*/
@@ -163,28 +184,40 @@ main {
     grid-row: 6/7;
 }
 
-/*----- Form -----*/
+.director {
+    margin: 1rem;
+    padding: .7rem;
+    background-color: #c8d8e4;
+    border-radius: 15px;
+    max-width: 400px;
+    text-align: center;
+}
+.pfp {
+    max-width: 350px;
+}
+
+/*----- Join Form -----*/
 form fieldset {
     margin: 2rem 0;
-    border: 1px solid #616161;
+    border: 1px solid #005b9c;
     border-radius: 10px;
     padding: .5rem 2%;
 }
 form legend {
-    color: #686868;
+    color: #005b9c;
     margin: 0 1rem;
     padding: 0 .5rem;
 }
 form label.flexly{
     display: block;
     padding-top: 1rem;
-    color: #ac3636;
+    color: #7e4343;
     font-size: .8rem;
 }
 form label.line, form div {
     display: block;
     padding-top: 1rem;
-    color: #ac3636;
+    color: #30375a;
     font-size: .8rem;
 }
 form label.line input, form label.line select {
@@ -199,6 +232,20 @@ form label.line input, form label.line select {
     max-width: 20rem;
     background-color: rgba(0,0,0,0.1)
 }
+form label.option, form div {
+    display: block;
+    padding-top: 1rem;
+    font-size: 1.5rem;
+    color: #30375a;
+}
+form label.option:hover {
+    color: #bd9759;
+}
+ul.desc li {
+    display:block;
+    padding-left: 1rem;
+    color: #30375a;
+}
 form label.sbs {
     display: block;
     padding: .75rem 0;
@@ -206,22 +253,39 @@ form label.sbs {
 }
 form input.submitBtn {
     border: none;
-    background-color: #8d8d8d;
+    background-color: #30375a;
     color: white;
     border-radius: 1rem;
-    padding: .75rem 1.5rem;
+    padding: 1rem 1.7rem;
     margin: 0 0 2rem 2%;
     width: 96%;
+    max-width: 25rem;
+    font-family: 'Raleway', sans-serif;
+    font-size: 2rem;
+}
+form input.submitcmt:hover {
+    background-color: #005b9c;
+}
+form input.submitcmt {
+    border: none;
+    background-color: #30375a;
+    color: white;
+    border-radius: 1rem;
+    padding: .7rem 1rem;
+    margin-top: 2rem;
+    width: 96%;
     max-width: 20rem;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.3rem;
 }
 form input.submitBtn:hover {
-    background-color: #424242;
+    background-color: #005b9c;
 }
 form label.line input:required {
-    border-left: red solid 6px;
+    border-bottom: #da4444 solid 6px;
 }
 form label.line input:required:valid {
-    border-left: green solid 6px;
+    border-bottom: #59c259 solid 6px;
 }
 #ratenum {
     color: #686868;
@@ -231,7 +295,7 @@ form label.line input:required:valid {
 /*----------- FOOTER --------------*/
 footer {
     color: #313131;
-    background-color: #e7e7e7;
+    background-color: #85b3d3;
     padding: .5rem 2%;
     text-align: center;
 }
