@@ -59,7 +59,7 @@ fetch(apiURL)
       return response.json();
     })
     .then(function (jsonObject) {
-      //console.table(jsonObject); FOR TESTING
+      console.table(jsonObject); //FOR TESTING
       const towns = jsonObject['towns'];
   
       //for (let i = 0; i < towns.length; i++ ) {

@@ -124,12 +124,49 @@ main {
     width: 100%;
 }
 
+.pgtophome img{
+    width: 100%;
+}
+
 /*-----Homepage-----*/
+
+.purpose {
+    width: 100%;
+    padding: 3rem;
+    text-align: center;
+    border-radius: 15px;
+}
+.purpose p {
+    font-size: 20pt;
+}
+.join {
+    background-color: #e4b363;
+    width: 100%;
+    padding: 3rem;
+    text-align: center;
+    border-radius: 15px;
+}
+.joinbtn {
+    border: none;
+    background-color: #30375a;
+    color: white;
+    border-radius: 1rem;
+    padding: 1rem 2rem;
+    margin: 0 0 2rem 2%;
+    width: 96%;
+    max-width: 20rem;
+    font-family: 'Raleway', sans-serif;
+    font-size: 2rem;
+}
+.joinbtn:hover {
+    background-color: #005b9c;
+}
+
 .featured div {
-    background-color: #eee8df;
+    background-color: #dfe8ee;
     padding: .7rem;
     margin: 1rem;
-    border-radius: 15px
+    border-radius: 15px;
 }
 .company {
     width: 150px;
@@ -155,14 +192,16 @@ section.contact div p {
 /*----- Directory -----*/
 .cards section {
     width: 450px;
-    height: 200px;
-    background-color: #eee8df;
-    padding: .7rem;
+    height: 230px;
+    background-color: #dfe8ee;
+    padding: .8rem;
     margin: .7rem;
+    box-shadow: 5px 5px 5px #979797;
 }
 .cards section img {
-    max-width: 100px;
+    max-width: 120px;
     float: left;
+    margin: .5rem;
 }
 
 
