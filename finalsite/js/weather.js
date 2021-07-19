@@ -22,7 +22,6 @@ fetch(requesturl)
       let p4 = document.createElement('p');
       let img = document.createElement('img');
 
-
       img.setAttribute('src', directory[i].imageurl);
       h2.textContent = directory[i].name;
       p1.textContent = 'Website: ' + directory[i].siteurl;
