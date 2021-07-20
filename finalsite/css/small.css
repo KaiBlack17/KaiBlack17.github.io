@@ -193,6 +193,9 @@ section.contact div p {
     font-size: 11pt;
 }
 
+.towndaypics {
+    width: 100%;
+}
 /*----- Directory -----*/
 .cards section {
     width: 450px;
