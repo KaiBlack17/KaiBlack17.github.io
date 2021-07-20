@@ -182,6 +182,10 @@ section.contact {
     max-width: 300px;
     border-radius: 15px
 }
+.mediaicon img{
+    width: 50px;
+    margin: .7rem;
+}
 section.contact div {
     padding: .1rem;
 }
