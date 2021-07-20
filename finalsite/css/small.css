@@ -162,6 +162,13 @@ main {
     background-color: #005b9c;
 }
 
+div.events {
+    border: 2px solid #30375a;
+    border-radius: 15px;
+    padding: .4rem;
+    width: 400px;
+}
+
 .featured div {
     background-color: #dfe8ee;
     padding: .7rem;

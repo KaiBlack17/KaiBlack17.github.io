@@ -65,6 +65,14 @@
         margin: auto;
     }
 
+    div.events {
+        border: 2px solid #30375a;
+        border-radius: 15px;
+        padding: .4rem;
+        width: 400px;
+        float: right;
+    }
+
     .towndaypics {
         width: 50%;
         float: right;
