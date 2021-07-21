@@ -43,9 +43,6 @@ div.events {
     display: grid;
     grid-template-columns: 33% 33% 33%;
 }
-.director {
-    max-width: 300px;
-}
 .pfp {
     max-width: 230px;
 }
