@@ -136,7 +136,9 @@ div.events {
     margin: 1rem;
     float: center;
 }
-
+.events ul li {
+    list-style: none
+}
 /*-----Homepage-----*/
 
 .purpose {
