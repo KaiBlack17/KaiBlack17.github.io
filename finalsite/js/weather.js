@@ -42,9 +42,7 @@ fetch(requesturl)
   });
 
 
-
   //Weather for home page
-
   const mydate = new Date();
   const daynum = mydate.getDay();
   
